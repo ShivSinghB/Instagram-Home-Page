@@ -324,7 +324,7 @@ const Feed = ({ darkMode }) => {
               </div>
               <div className="h-full">
                 <img
-                  src={`https://source.unsplash.com/1080x1920/?person&id=${activeStory}`}
+                  src={`https://images.unsplash.com/photo-1742943892627-f7e4ddf91224?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D=${activeStory}`}
                   alt="Story content"
                   className="h-full w-full object-cover"
                 />
@@ -418,43 +418,6 @@ const Feed = ({ darkMode }) => {
                   </div>
                 )}
 
-                {/* Caption overlay for Robin Williams post */}
-                {/* {post.hasOverlay && (
-                  <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/60 to-transparent p-4 text-white backdrop-blur-[2px] md:p-6">
-                    <div className="max-w-sm text-center">
-                      <div className="mb-2 flex justify-center">
-                        <div className="relative">
-                          <img
-                            src="https://source.unsplash.com/35x35/?crown&id=1"
-                            alt="Crown"
-                            className="h-8 w-8 object-contain drop-shadow-lg"
-                          />
-                          <div className="absolute -inset-1 -z-10 animate-pulse rounded-full bg-yellow-400/20 blur-md"></div>
-                        </div>
-                      </div>
-                      <div className="mb-2 text-xs uppercase tracking-wider text-gray-300">
-                        DARKWIILL
-                      </div>
-                      <h2 className="mb-4 text-xl font-extrabold uppercase leading-tight tracking-wide drop-shadow-lg md:text-3xl">
-                        ROBIN WILLIAMS ASKED PRODUCTION TO{" "}
-                        <br className="hidden md:block" />
-                        HIRE AT LEAST TEN HOMELESS PEOPLE{" "}
-                        <br className="hidden md:block" />
-                        IN ALL OF HIS FILMS, HELPING OVER{" "}
-                        <br className="hidden md:block" />
-                        1500 THROUGHOUT HIS CAREER
-                      </h2>
-                      <div className="mb-1 flex justify-center space-x-3">
-                        <button className="rounded-full bg-white/20 px-4 py-1 text-xs font-medium uppercase backdrop-blur-sm transition hover:bg-white/30">
-                          #respect
-                        </button>
-                        <button className="rounded-full bg-white/20 px-4 py-1 text-xs font-medium uppercase backdrop-blur-sm transition hover:bg-white/30">
-                          #inspiration
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                )} */}
               </div>
 
               {/* Post actions */}
