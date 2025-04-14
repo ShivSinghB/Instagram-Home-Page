@@ -14,50 +14,50 @@ const Feed = ({ darkMode }) => {
     {
       id: 1,
       username: "shiv",
-      avatar: "https://source.unsplash.com/100x100/?person&id=1",
+      avatar: "https://images.unsplash.com/photo-1741732311554-911ecc8da478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
       username: "sneha",
-      avatar: "https://source.unsplash.com/100x100/?person&id=2",
+      avatar: "https://plus.unsplash.com/premium_photo-1679864497965-57c00454dbd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
       username: "abhishek",
-      avatar: "https://source.unsplash.com/100x100/?person&id=3",
+      avatar: "https://plus.unsplash.com/premium_photo-1742455147775-4f5f6c09011b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 4,
       username: "stoic",
-      avatar: "https://source.unsplash.com/100x100/?person&id=4",
+      avatar: "https://images.unsplash.com/photo-1628256901515-1ac27bb7a7ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0b2ljc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 5,
       username: "juhi",
-      avatar: "https://source.unsplash.com/100x100/?person&id=5",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fHww",
     },
     {
       id: 6,
       username: "samay",
-      avatar: "https://source.unsplash.com/100x100/?person&id=6",
+      avatar: "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 7,
       username: "ravi",
-      avatar: "https://source.unsplash.com/100x100/?person&id=7",
+      avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww",
     },
     {
       id: 8,
       username: "kanchan",
-      avatar: "https://source.unsplash.com/100x100/?person&id=8",
+      avatar: "https://plus.unsplash.com/premium_photo-1682681907111-c13bc10b1587?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D",
     },
   ]);
 
   const [posts, setPosts] = useState([
     {
       id: 1,
-      username: "Unknown User",
-      avatar: "https://source.unsplash.com/100x100/?person&id=10",
+      username: "peaceful_mind",
+      avatar: "https://plus.unsplash.com/premium_photo-1678853632034-66e417e0f830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVkaGhhfGVufDB8fDB8fHww",
       image:
         "https://quozio.com/image/v2/q/1019/fc679c73/lg/953cfdd71594.1/the-mind-is-everything-what-you-think-you-become.jpg",
       caption: "The mind is everything. What you think you become.",
@@ -75,37 +75,37 @@ const Feed = ({ darkMode }) => {
     {
       id: 1,
       username: "doremon",
-      avatar: "https://source.unsplash.com/100x100/?person&id=15",
+      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeICgwfg217Ree7hSLSJ_WTKCgE4985F2kDw&s",
       verified: true,
-      followedBy: "rajsingh__",
+      followedBy: "im_shiv_b",
     },
     {
       id: 2,
-      username: "bruce wayne",
-      avatar: "https://source.unsplash.com/100x100/?person&id=16",
+      username: "bruce_wayne",
+      avatar: "https://i.pinimg.com/736x/e0/04/4e/e0044e471a717bbe16b1ba35c3257563.jpg",
       verified: false,
-      followedBy: "",
+      followedBy: "im_shiv_b",
     },
     {
       id: 3,
       username: "top_cruise",
-      avatar: "https://source.unsplash.com/100x100/?person&id=17",
+      avatar: "https://hips.hearstapps.com/vidthumb/images/gettyimages-146107054-1627666642.jpg?crop=1.00xw:0.848xh;0,0&resize=1200:*",
       verified: true,
-      followedBy: "",
+      followedBy: "im_shiv_b",
     },
     {
       id: 4,
       username: "srk",
-      avatar: "https://source.unsplash.com/100x100/?person&id=18",
+      avatar: "https://images.firstpost.com/wp-content/uploads/2020/11/shah-rukh-khan-1579698057.jpg?im=FitAndFill=(596,336)",
       verified: true,
-      followedBy: "shivanandsinghcho",
+      followedBy: "im_shiv_b",
     },
     {
       id: 5,
-      username: "bts",
-      avatar: "https://source.unsplash.com/100x100/?person&id=19",
+      username: "leonardo_dicaprio",
+      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhXQz0aY3kiT-EBuwgxrjuo3gAg9CY-wLxRw&s",
       verified: false,
-      followedBy: "dilip_kushwah_09",
+      followedBy: "im_shiv_b",
     },
   ]);
 
@@ -558,7 +558,7 @@ const Feed = ({ darkMode }) => {
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 cursor-pointer rounded-full">
                 <img
-                  src="https://source.unsplash.com/100x100/?person&id=99"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQEloYLmGzSpXQ/profile-displayphoto-shrink_800_800/B4DZYAOTCUHIAg-/0/1743760472372?e=1750291200&v=beta&t=j2oDkMsYi-S180lSVphBaPXsG7ukmANJJHht99bmbGE"
                   alt="Profile"
                   className="h-full w-full rounded-full object-cover"
                 />
